@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.maincontainer {
+    height: fit-content;
+    width: 100%;
+}
+
+.logo {
+    font-size: 20px;
+    color: white;
+    margin-right: 50%;
+}
+
+.navbar {
+    /* justify-content: space-between; */
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    z-index: 1000;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(152, 151, 151);
+    display: flex;
+    font-size: 15px;
+    margin: 10px;
+
+}
+
+.navbar a:hover {
+    color: whitesmoke;
+}
+
+.icon {
+    padding: 20px 28px;
+    left: 93%;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.intro-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    background: url("https://static.wixstatic.com/media/84770f_93b300330b3742f2b1948ef292a91f27~mv2_d_1920_1279_s_2.png/v1/fill/w_1899,h_1024,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/84770f_93b300330b3742f2b1948ef292a91f27~mv2_d_1920_1279_s_2.png");
+    background-size: cover;
+    background-color: aqua;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.intro-container button {
+    margin: 20px;
+    padding: 8px 35px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: serif;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.intro-container button:hover {
+    background-color: white;
+    color: black;
+}
+
+.secondcontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.new-arrival {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.new-arrival button {
+    margin: 5px;
+    padding: 7px 25px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-family: serif;
+}
+
+.new-arrival button:hover {
+    background-color: white;
+    color: black;
+}
+
+.imagecontainer1 img {
+    height: 100vh;
+    width: 100%;
+}
+
+.imagecontainer1 {
+    width: 50%;
+    position: relative;
+
+}
+
+.thirdcontainer {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.Image1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.Image2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.Image3 img {
+    height: 100%;
+    width: 100%;
+}
+
+.fourthcontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.Image4 img {
+    height: 60vh;
+    width: 100%;
+    color: white;
+}
+
+.cb {
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.Image4 {
+    position: relative;
+}
+
+.Image5 {
+    position: relative;
+}
+
+.Image6 {
+    position: relative;
+}
+
+.cb-overlay button {
+    position: absolute;
+    bottom: -10px;
+    right: 50px;
+    margin: 6px;
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    display: none;
+}
+
+.Image4:hover .cb-overlay button {
+    display: block;
+}
+
+.tb-overlay button {
+    position: absolute;
+    bottom: -10px;
+    right: 40px;
+    margin: 6px;
+    padding: 12px 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    display: none;
+}
+
+.Image5:hover .tb-overlay button {
+    display: block;
+}
+
+.mb-overlay button {
+    position: absolute;
+    bottom: -10px;
+    right: 50px;
+    margin: 6px;
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    display: none;
+}
+
+.Image6:hover .mb-overlay button {
+    display: block;
+}
+
+.Image5 img {
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(25, 57, 139);
+}
+
+.Image6 img {
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(8, 4, 83);
+}
+
+.fifthcontainer {
+    height: 100vh;
+    width: 100%;
+    background: url("./image/aboutus.jpg");
+    background-size: 100% 100%;
+}
+
+.aboutwriting {
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.aboutwriting h1 {
+    margin-left: 20%;
+    display: flex;
+}
+
+.aboutwriting p {
+    margin-left: 20%;
+}
+
+.sixthcontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.formcontainer {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.formcontainer button {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 3px 8px;
+    float: right;
+}
+
+.formcontainer form input {
+    border: 1px solid white;
+    background-color: black;
+    flex-direction: column;
+    margin: 5px;
+    padding: 4px 10px;
+}
+
+#fname {
+    padding: 3px 1px;
+}
+
+#lname {
+    padding: 3px 1px;
+}
+
+#email {
+    padding: 6px 37px;
+}
+
+#subject {
+    padding: 6px 37px;
+}
+
+#message {
+    height: 100px;
+    width: 250px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.para-container {
+    width: 50%;
+    position: relative;
+    background-color: black;
+    vertical-align: middle !important;
+    text-align: center;
+    color: white;
+}
+
+.heading {
+    margin-right: 40%;
+    margin-top: 15%;
+}
+
+.para-container p {
+    margin-right: 40%;
+}
+
+.Image1 {
+    position: relative;
+}
+
+.Image2 {
+    position: relative;
+}
+
+.Image3 {
+    position: relative;
+}
+
+.image1-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Image1:hover .image1-overlay {
+    display: block;
+}
+
+.Image1:hover .image1 {
+    transform: scale(0.9);
+}
+
+.image2-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Image2:hover .image2-overlay {
+    display: block;
+}
+
+.Image2:hover .image2 {
+    transform: scale(0.9);
+}
+
+.image3-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Image3:hover .image3-overlay {
+    display: block;
+}
+
+.Image3:hover .image3 {
+    transform: scale(0.9);
+}
+
+.link {
+    color: white;
+}
+
+.seventhcontainer {
+    height: 60vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 14, 14);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.lastform input {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 300px;
+    border: 1px solid wheat;
+}
+.lastform  button{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 6px 200px;
+    border: 1px solid wheat;
+    color: white;
+}
+.lastform input:hover{
+    background-color: black;
+}
+.lastform button:hover{
+    color: gray;
+}
+.eightthcontainer{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(20, 19, 19);
+    color: gray;
+    align-items: center;
+}
+.footerheading{
+    font-size: 13px;
+    margin-right: 5%;
+    margin-left: 16%;
+}
+.eightthcontainer a{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: gray;
+    margin: 6px;
+}
